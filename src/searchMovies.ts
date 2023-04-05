@@ -30,7 +30,7 @@ const filterMoviesByTitle = (searchText: string, movies: Movie[]): Movie[] => {
 const createSearchMessage = (mainMessage : string) : string => {
   const message = `
     <div class='container-search-message'>
-      <img src="src/img/searchLoop.svg" alt='image of search' class='img-loop-search'/>
+      <img src="/TestTechnique-Movies-App/img/searchLoop.svg" alt='image of search' class='img-loop-search'/>
       <p class="message-search">${mainMessage}</p>
       <p class="message-search-hint">Find your movie by title</p>
     </div>
@@ -89,13 +89,13 @@ export function updateMovieList(searchText: string, allMovies: Movie[]): void {
         <p class='title-search-movie'>${movie.title}</p>
         <div class='container-details-search-movie'>
             <div class='container-line-detail-movie'>
-            <img src="src/img/Ticket.svg" alt='logo type of movie' class='logo-details-movie'/><p class='section-search-movie-details'>${movie.type}</p>
+            <img src="/TestTechnique-Movies-App/img/Ticket.svg" alt='logo type of movie' class='logo-details-movie'/><p class='section-search-movie-details'>${movie.type}</p>
             </div> 
             <div class='container-line-detail-movie'>
-                <img src="src/img/CalendarBlank.svg" alt='logo date movie' class='logo-details-movie'/><p class='section-search-movie-details'>${movie.date}</p>
+                <img src="/TestTechnique-Movies-App/img/CalendarBlank.svg" alt='logo date movie' class='logo-details-movie'/><p class='section-search-movie-details'>${movie.date}</p>
             </div> 
             <div class='container-line-detail-movie'>
-                <img src="src/img/Clock.svg" alt='logo duration movie' class='logo-details-movie'/><p class='section-search-movie-details'>${movie.duration} minutes</p>
+                <img src="/TestTechnique-Movies-App/img/Clock.svg" alt='logo duration movie' class='logo-details-movie'/><p class='section-search-movie-details'>${movie.duration} minutes</p>
             </div> 
         </div>
         </section>
@@ -105,7 +105,7 @@ export function updateMovieList(searchText: string, allMovies: Movie[]): void {
       const movieImgs = containerMovie.querySelectorAll("img");
       movieImgs.forEach((img) => {
         img.addEventListener("error", () => {
-          img.src = "src/img/NoData.svg";
+          img.src = "/TestTechnique-Movies-App/img/NoData.svg";
           img.style.backgroundColor = 'white';
         });
       });

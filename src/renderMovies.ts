@@ -41,7 +41,7 @@ export function renderMovies(movies: Movie[]) : Movie[] {
 
           // Check if there is an error with the image fetch and replace with a placeholder image
           img.addEventListener('error', () => {
-            img.src = 'src/img/NoData.svg';
+            img.src = '/TestTechnique-Movies-App/img/NoData.svg';
             img.style.backgroundColor = 'white';
           });
 
@@ -76,7 +76,7 @@ export function renderMovies(movies: Movie[]) : Movie[] {
 
     // Creation separtor design between sections
     const img = document.createElement('img');
-    img.src = './src/img/separatorHorizontal.svg';
+    img.src = '/TestTechnique-Movies-App/img/separatorHorizontal.svg';
     img.alt = 'esign separator';
     img.id = 'separator'
 
