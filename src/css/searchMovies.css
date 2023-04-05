@@ -1,0 +1,131 @@
+/* header */
+.title-center {
+    text-align: center !important;
+    margin: 0 !important;
+}
+.search-margin{
+    margin-top: 36px !important;
+}
+.search-main-css{
+    row-gap: 0;
+    margin-top: 0;
+}
+
+/* main */
+.message-search{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 160%;
+
+    text-align: center;
+    letter-spacing: 0.12px;
+    text-transform: capitalize;
+
+    color: #EBEBEF;
+
+    margin: 16px 0 0 0;
+}
+.message-search-hint{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 160%;
+
+    /* or 19px */
+    text-align: center;
+    letter-spacing: 0.12px;
+
+    /* Grey */
+    color: #92929D;
+
+    margin: 8px 0 0 0;
+}
+main.has-result {
+    justify-content: start;
+}
+.render-search-movie{
+    display: flex;
+    max-width: 100%;
+    box-sizing: border-box;
+    column-gap: 13.5px;
+    margin-top: 24px;
+}
+aside > img {
+    width: 95px;
+    height: 120px;
+    border-radius: 16px;
+}
+.section-details-movie{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.title-search-movie{
+    flex:1;
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis;
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    color: #FFFFFF;
+}
+.container-details-search-movie{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    column-gap: 2px;
+}
+.section-search-movie-details{
+width: 100%;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+margin: 0;
+
+display: flex;
+align-items: center;
+
+color: #EEEEEE;
+}
+.logo-details-movie{
+    width: 16px;
+    height: 16px;
+}
+.container-line-detail-movie{
+    display: flex;
+    align-items: center;
+    column-gap: 5.5px;
+}
+#img-back-main-menu{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+#container-title-search {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.img-loop-search{
+    width: 76px;
+    height: 76px;
+}
+.container-search-message{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 144px;
+}
+
+
+   
