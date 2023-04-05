@@ -41,7 +41,7 @@ export function renderMovies(movies: Movie[]) : Movie[] {
 
           // Check if there is an error with the image fetch and replace with a placeholder image
           img.addEventListener('error', () => {
-            img.src = '/src/img/NoData.svg';
+            img.src = 'src/img/NoData.svg';
             img.style.backgroundColor = 'white';
           });
 

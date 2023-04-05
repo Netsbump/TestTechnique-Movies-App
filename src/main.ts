@@ -5,7 +5,7 @@ import { menu } from './menu';
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div id='container-logo-popcorn'>
     <a href="#" target="_blank">
-      <img src="/src/img/PopCorn.svg" id="logo-popcorn" alt="App logo" />
+      <img src="src/img/PopCorn.svg" id="logo-popcorn" alt="App logo" />
     </a>
   </div>
 `
