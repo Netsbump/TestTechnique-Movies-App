@@ -36,14 +36,14 @@ export function renderMovies(movies: Movie[]) : Movie[] {
           div.innerHTML = `${i +1}`;
           div.classList.add('number-movie');
 
+          img.src = movie.thumbnail;
+          img.style.borderRadius = "16px";
+
           // Check if there is an error with the image fetch and replace with a placeholder image
           img.addEventListener('error', () => {
             img.src = './src/img/NoData.svg';
             img.style.backgroundColor = 'white';
           });
-
-          img.src = movie.thumbnail;
-          img.style.borderRadius = "16px";
 
           // Bind a click event to open the modal 
           img.addEventListener('click', () => {
