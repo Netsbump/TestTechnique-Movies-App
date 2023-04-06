@@ -7,7 +7,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/github_username/repo_name">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="img/Popcorn.svg" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Front-end Developer Technical Test</h3>
@@ -41,7 +41,7 @@
     <li><a href="#expected-deliverables">Expected Deliverables</a></li>
     <li><a href="#evaluation-criteria">Evaluation Criteria</a></li>
     <li><a href="#resources">Resources</a></li>
-    <li><a href="#choices-building-application">Choices In Building Application</a></li>
+    <li><a href="#choices-building-in-application">Choices In Building Application</a></li>
   </ol>
 </details>
 
@@ -118,8 +118,8 @@ The application must then be hosted on a hosting platform of your choice (Netlif
 
 ### Fonts
 
-Poppins : <a href="https://fonts.google.com/specimen/Poppins</a>
-Montserrat : <a href="https://fonts.google.com/specimen/Montserrat</a>
+Poppins : <p><a href="https://fonts.google.com/specimen/Poppins</a></p>
+Montserrat : <p><a href="https://fonts.google.com/specimen/Montserrat</a></p>
 
 ### Data Response Format
 
