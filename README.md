@@ -41,7 +41,7 @@
     <li><a href="#expected-deliverables">Expected Deliverables</a></li>
     <li><a href="#evaluation-criteria">Evaluation Criteria</a></li>
     <li><a href="#resources">Resources</a></li>
-    <li><a href="#choices-building-in-application">Choices In Building Application</a></li>
+    <li><a href="#choices-building-application">Choices Building Application</a></li>
   </ol>
 </details>
 
@@ -111,15 +111,15 @@ The application must then be hosted on a hosting platform of your choice (Netlif
 
 ### Figma Mockup
 
-<p><a href="https://www.figma.com/file/vRA7hIaeeYsFaK3v8nx7il/Movies-app-(Community)?node-id=0%3A1&t=7VQH4vPNhEXILAQ4-1</a></p>
+<div><a href="https://www.figma.com/file/vRA7hIaeeYsFaK3v8nx7il/Movies-app-(Community)?node-id=0%3A1&t=7VQH4vPNhEXILAQ4-1</a></div>
 <aside>
 💡 A Figma account is required to inspect the mockup
 </aside>
 
 ### Fonts
 
-Poppins : <p><a href="https://fonts.google.com/specimen/Poppins</a></p>
-Montserrat : <p><a href="https://fonts.google.com/specimen/Montserrat</a></p>
+Poppins : <div><a href="https://fonts.google.com/specimen/Poppins</a></div>
+Montserrat : <div><a href="https://fonts.google.com/specimen/Montserrat</a></div>
 
 ### Data Response Format
 
@@ -135,12 +135,14 @@ Montserrat : <p><a href="https://fonts.google.com/specimen/Montserrat</a></p>
   }
 ]
 
-<!-- CHOICES IN BUILDING APPLICATION -->
-## Choices In Building Application
+<!-- CHOICES BUILDING APPLICATION -->
+## Choices Building Application
 
  1. I decided to build my project with Vite.js to quickly start coding and take the opportunity to explore this tooling solution. 
  2. The project is built using vanilla JavaScript with TypeScript, as I am not familiar with any frameworks, and it didn't seem particularly useful for this integration project. 
  3. I used fuzzy.js as the library for the movie search algorithm, and axios for HTTP requests to simplify the syntax and familiarize myself with the library.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
