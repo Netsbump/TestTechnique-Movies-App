@@ -7,7 +7,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/github_username/repo_name">
-    <img src="src/img/Popcorn.svg" alt="Logo" width="80" height="80">
+    <img src="src/img/PopCorn.svg" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Front-end Developer Technical Test</h3>
