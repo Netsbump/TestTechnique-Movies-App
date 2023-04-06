@@ -3,16 +3,6 @@
 <a name="readme-top"></a>
 
 
-<!-- PROJECT SHIELDS -->
-
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -23,16 +13,16 @@
 <h3 align="center">Front-end Developer Technical Test</h3>
 
   <p align="center">
-    project_description
+    Front-end project developed as part of a technical assessment for a recruitment process.
     <br />
     <a href="https://github.com/Netsbump/TestTechnique-Movies-App"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://netsbump.github.io/TestTechnique-Movies-App/">View Demo</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
+    <a href="https://github.com/Netsbump/TestTechnique-Movies-App/issues">Report Bug</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
+    <a href="https://github.com/Netsbump/TestTechnique-Movies-App/pulls">Request Feature</a>
   </p>
 </div>
 
@@ -121,7 +111,7 @@ The application must then be hosted on a hosting platform of your choice (Netlif
 
 ### Figma Mockup
 
-<a href="https://www.figma.com/file/vRA7hIaeeYsFaK3v8nx7il/Movies-app-(Community)?node-id=0%3A1&t=7VQH4vPNhEXILAQ4-1</a>
+<p><a href="https://www.figma.com/file/vRA7hIaeeYsFaK3v8nx7il/Movies-app-(Community)?node-id=0%3A1&t=7VQH4vPNhEXILAQ4-1</a></p>
 <aside>
 💡 A Figma account is required to inspect the mockup
 </aside>
