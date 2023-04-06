@@ -7,7 +7,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/github_username/repo_name">
-    <img src="img/Popcorn.svg" alt="Logo" width="80" height="80">
+    <img src="src/img/Popcorn.svg" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Front-end Developer Technical Test</h3>
@@ -111,15 +111,15 @@ The application must then be hosted on a hosting platform of your choice (Netlif
 
 ### Figma Mockup
 
-<div><a href="https://www.figma.com/file/vRA7hIaeeYsFaK3v8nx7il/Movies-app-(Community)?node-id=0%3A1&t=7VQH4vPNhEXILAQ4-1</a></div>
+* [Figma](https://www.figma.com/file/vRA7hIaeeYsFaK3v8nx7il/Movies-app-(Community)?node-id=0%3A1&t=7VQH4vPNhEXILAQ4-1)
 <aside>
 💡 A Figma account is required to inspect the mockup
 </aside>
 
 ### Fonts
 
-Poppins : <div><a href="https://fonts.google.com/specimen/Poppins</a></div>
-Montserrat : <div><a href="https://fonts.google.com/specimen/Montserrat</a></div>
+* [Poppins](https://fonts.google.com/specimen/Poppins)
+* [Montserrat](https://fonts.google.com/specimen/Montserrat)
 
 ### Data Response Format
 
@@ -134,6 +134,8 @@ Montserrat : <div><a href="https://fonts.google.com/specimen/Montserrat</a></div
 		"cover": uri,
   }
 ]
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CHOICES BUILDING APPLICATION -->
 ## Choices Building Application
