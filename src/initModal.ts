@@ -1,5 +1,17 @@
 import { Movie } from "./movie.interface";
 import './css/modal.css';
+import imgTime from './img/Time.svg';
+import imgMobileSignal from './img/MobileSignal.svg';
+import imgWifi from './img/Wifi.svg';
+import imgBattery from './img/Battery.svg';
+import imgArrowLeft from './img/arrow-left.svg';
+import imgCalendarGrey from './img/CalendarGrey.svg';
+import imgVector from './img/Vector.svg';
+import imgClockGrey from './img/ClockGrey.svg';
+import imgTicketGrey from './img/TicketGrey.svg';
+import imgSeparatorHorizontal from './img/separatorHorizontal.svg';
+import imgNoData from './img/NoData.svg';
+
 
 /**
  * This function initializes and displays a modal window with details for a given movie.
@@ -16,16 +28,16 @@ export function initModal(movie: Movie) : void {
     modal.innerHTML = `
         <div class='container-status-bar'> 
             <div id='container-left-status-bar'>
-                <img src="/TestTechnique-Movies-App/img/Time.svg" id="img-time" alt="image time" />
+                <img src="${imgTime}" id="img-time" alt="image time" />
             </div>
             <div id='container-right-status-bar'>
-                <img src="/TestTechnique-Movies-App/img/MobileSignal.svg" id="img-mobile-signal" alt="image mobile signal" />
-                <img src="/TestTechnique-Movies-App/img/Wifi.svg" id="img-wifi" alt="image wifi" />
-                <img src="/TestTechnique-Movies-App/img/Battery.svg" id="img-battery" alt="image battey" />
+                <img src="${imgMobileSignal}" id="img-mobile-signal" alt="image mobile signal" />
+                <img src="${imgWifi}" id="img-wifi" alt="image wifi" />
+                <img src="${imgBattery}" id="img-battery" alt="image battey" />
             </div>
         </div>
         <header id='modal-header'>
-            <img src="/TestTechnique-Movies-App/img/arrow-left.svg" alt="image return" class="closeBtn">   
+            <img src="${imgArrowLeft}" alt="image return" class="closeBtn">   
             <h1 id="title" class='title-center'>Detail</h1>
         </header>
         <main id='main-modal'>
@@ -38,19 +50,19 @@ export function initModal(movie: Movie) : void {
             </div>
             <div id='container-details-modal'>
                 <div class='line-detail-modal' id='date-detail-modal'>
-                    <img src="/TestTechnique-Movies-App/img/CalendarGrey.svg" alt='logo date movie' class='logo-details-movie'/><p class='movie-details-modal'>${movie.date}</p>
+                    <img src="${imgCalendarGrey}" alt='logo date movie' class='logo-details-movie'/><p class='movie-details-modal'>${movie.date}</p>
                 </div>
-                <img src="/TestTechnique-Movies-App/img/Vector.svg" alt='design separator' class='separator-details'/>
+                <img src="${imgVector}" alt='design separator' class='separator-details'/>
                 <div class='line-detail-modal'>
-                    <img src="/TestTechnique-Movies-App/img/ClockGrey.svg" alt='logo duration movie' class='logo-details-movie'/><p class='movie-details-modal'>${movie.duration} minutes</p>
+                    <img src="${imgClockGrey}" alt='logo duration movie' class='logo-details-movie'/><p class='movie-details-modal'>${movie.duration} minutes</p>
                 </div> 
-                <img src="/TestTechnique-Movies-App/img/Vector.svg" alt='design separator' class='separator-details'/>
+                <img src="${imgVector}" alt='design separator' class='separator-details'/>
                 <div class='line-detail-modal' id='type-detail-modal'>
-                <img src="/TestTechnique-Movies-App/img/TicketGrey.svg" alt='logo type of movie' class='logo-details-movie'/><p class='movie-details-modal'>${movie.type}</p>
+                <img src="${imgTicketGrey}" alt='logo type of movie' class='logo-details-movie'/><p class='movie-details-modal'>${movie.type}</p>
                 </div> 
             </div>
             <p id='about-movie'>About Movie</p>
-            <img src="/TestTechnique-Movies-App/img/separatorHorizontal.svg" alt='design separator' class='separator-about'/>
+            <img src="${imgSeparatorHorizontal}" alt='design separator' class='separator-about'/>
            <p id='about-movie-description'>${movie.description}</p>
         </main>
     `;
@@ -59,7 +71,7 @@ export function initModal(movie: Movie) : void {
     const movieImgs = modal.querySelectorAll("img");
     movieImgs.forEach((img) => {
       img.addEventListener("error", () => {
-        img.src = "/TestTechnique-Movies-App/img/NoData.svg";
+        img.src = `${imgNoData}`;
         img.style.backgroundColor = 'white';
       });
     });

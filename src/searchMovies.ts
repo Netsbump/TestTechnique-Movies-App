@@ -2,6 +2,12 @@ import Fuzzy from 'fuzzy';
 import { Movie } from './movie.interface';
 import { initModal } from './initModal';
 import './css/searchMovies.css';
+import imgSearchLoop from './img/searchLoop.svg';
+import imgClock from './img/Clock.svg';
+import imgTicket from './img/Ticket.svg';
+import imgCalendar from './img/CalendarBlank.svg';
+import imgNoData from './img/NoData.svg';
+
 
 /**
  * This function takes in an array of movie objects and a search text string. 
@@ -30,7 +36,7 @@ const filterMoviesByTitle = (searchText: string, movies: Movie[]): Movie[] => {
 const createSearchMessage = (mainMessage : string) : string => {
   const message = `
     <div class='container-search-message'>
-      <img src="/TestTechnique-Movies-App/img/searchLoop.svg" alt='image of search' class='img-loop-search'/>
+      <img src="${imgSearchLoop}" alt='image of search' class='img-loop-search'/>
       <p class="message-search">${mainMessage}</p>
       <p class="message-search-hint">Find your movie by title</p>
     </div>
@@ -89,13 +95,13 @@ export function updateMovieList(searchText: string, allMovies: Movie[]): void {
         <p class='title-search-movie'>${movie.title}</p>
         <div class='container-details-search-movie'>
             <div class='container-line-detail-movie'>
-            <img src="/TestTechnique-Movies-App/img/Ticket.svg" alt='logo type of movie' class='logo-details-movie'/><p class='section-search-movie-details'>${movie.type}</p>
+            <img src="${imgTicket}" alt='logo type of movie' class='logo-details-movie'/><p class='section-search-movie-details'>${movie.type}</p>
             </div> 
             <div class='container-line-detail-movie'>
-                <img src="/TestTechnique-Movies-App/img/CalendarBlank.svg" alt='logo date movie' class='logo-details-movie'/><p class='section-search-movie-details'>${movie.date}</p>
+                <img src="${imgCalendar}" alt='logo date movie' class='logo-details-movie'/><p class='section-search-movie-details'>${movie.date}</p>
             </div> 
             <div class='container-line-detail-movie'>
-                <img src="/TestTechnique-Movies-App/img/Clock.svg" alt='logo duration movie' class='logo-details-movie'/><p class='section-search-movie-details'>${movie.duration} minutes</p>
+                <img src="${imgClock}" alt='logo duration movie' class='logo-details-movie'/><p class='section-search-movie-details'>${movie.duration} minutes</p>
             </div> 
         </div>
         </section>
@@ -105,7 +111,7 @@ export function updateMovieList(searchText: string, allMovies: Movie[]): void {
       const movieImgs = containerMovie.querySelectorAll("img");
       movieImgs.forEach((img) => {
         img.addEventListener("error", () => {
-          img.src = "/TestTechnique-Movies-App/img/NoData.svg";
+          img.src = `${imgNoData}`;
           img.style.backgroundColor = 'white';
         });
       });

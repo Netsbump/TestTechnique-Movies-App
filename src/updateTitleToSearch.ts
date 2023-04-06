@@ -1,4 +1,5 @@
 import { menu } from './menu';
+import imgArrowLeft from './img/arrow-left.svg';
 
 /**
  * Change title "What do you want to watch? " in "Search"
@@ -22,7 +23,7 @@ export function updateTitleToSearch() : void  {
   if (!img) { 
 
     img = document.createElement("img");
-    img.src = "/src/img/arrow-left.svg";
+    img.src = `${imgArrowLeft}`;
     img.alt = "image go back to main menu";
     img.id = "img-back-main-menu";
 

@@ -1,5 +1,7 @@
 import { initModal } from './initModal';
 import { Movie } from './movie.interface';
+import imgNoData from './img/NoData.svg';
+import imgSeparatorHorizontal from './img/separatorHorizontal.svg';
 
 /**
  * Render two sections of movies
@@ -41,7 +43,7 @@ export function renderMovies(movies: Movie[]) : Movie[] {
 
           // Check if there is an error with the image fetch and replace with a placeholder image
           img.addEventListener('error', () => {
-            img.src = '/TestTechnique-Movies-App/img/NoData.svg';
+            img.src = `${imgNoData}`;
             img.style.backgroundColor = 'white';
           });
 
@@ -76,8 +78,8 @@ export function renderMovies(movies: Movie[]) : Movie[] {
 
     // Creation separtor design between sections
     const img = document.createElement('img');
-    img.src = '/TestTechnique-Movies-App/img/separatorHorizontal.svg';
-    img.alt = 'esign separator';
+    img.src = `${imgSeparatorHorizontal}`;
+    img.alt = 'design separator';
     img.id = 'separator'
 
     // Add to main html
